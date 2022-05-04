@@ -20,11 +20,13 @@ body {
   .main {
     width: 100%;
     display: inline-block;
+    background-color: azure;
   }
   
+  /* CAJA IZQUIERDA */
   .left {
     width: 20%;
-    height: 850px;
+    height: 800px;
     background-color: rgb(63, 63, 63);
     float: left;
     text-shadow: 4px 2px black;
@@ -35,11 +37,21 @@ body {
     text-decoration: none;
   }
 
+  .left_down{
+    font-size: small;
+    color: white;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-shadow: 4px 2px black;
+  }
+
   .left h1:hover {
     font-size: 40px;
     text-shadow: 4px 2px rgb(55, 4, 194);
   
   }
+/* FIN CAJA IZQUIERDA */
 
 /*Inicio de logos*/
 .logo {
@@ -68,16 +80,31 @@ body {
   /* fin de logos*/
 
  
-  
+  /* CAJA DERECHA */
   .right {
     width: 80%;
-    height: 850px;
+    height: 800px;
     font-size: 20px;
     color: rgb(0, 0, 0);
     float: right;
     text-shadow: 4px 2px rgb(255, 255, 255);
   }
-  
+
+  .right h2{
+    font-size: larger;
+    color: rgba(175, 15, 15, 0.747);
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  p.center {text-align: center;
+    font-weight: bold;}
+    
+    p.justify {text-align: justify;}
+
+
+  /* FIN CAJA DERECHA */
+
   h1 {
     padding: 0;
     margin: 0;
@@ -91,7 +118,7 @@ body {
     background-color: #ffffffd3;
     box-shadow: 0 0 10px 10px #2c2c2c70;
     border: 2px solid black;
-    height: auto;
+    height: 450;
     margin: 10px auto;
     text-align: center;
     width: 300px;
